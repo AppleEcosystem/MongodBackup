@@ -36,7 +36,7 @@ The project is organized into multiple Python files for better maintainability:
 git clone https://github.com/AppleEcosystem/MongodBackup.git
 ```
 
-2. Clone the repository
+2. Install required packages
 ```bash
 pip3 install -r requirements
 ```
@@ -55,4 +55,13 @@ R2_SECRET_ACCESS_KEY = 'your-secret-key'
 # Telegram Configuration
 TELEGRAM_TOKEN = 'your-telegram-bot-token'
 TELEGRAM_CHANNEL_ID = 'your-channel-id'
-TELEGRAM_API_URL = f'https://api.telegram.org/bot{TELEGRAM_TOKEN}```
+TELEGRAM_API_URL = f'https://api.telegram.org/bot{TELEGRAM_TOKEN}
+
+
+4. Run the project
+```bash
+python3 main.py
+```
+
+tip:
+You can set this project to automatically back up the database by using a cron job. This means the backups will run on a schedule (like daily or weekly) without you having to do anything manually.
