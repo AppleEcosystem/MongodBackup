@@ -56,12 +56,3 @@ R2_SECRET_ACCESS_KEY = 'your-secret-key'
 TELEGRAM_TOKEN = 'your-telegram-bot-token'
 TELEGRAM_CHANNEL_ID = 'your-channel-id'
 TELEGRAM_API_URL = f'https://api.telegram.org/bot{TELEGRAM_TOKEN}
-
-
-4. Run the project
-```bash
-python3 main.py
-```
-
-tip:
-You can set this project to automatically back up the database by using a cron job. This means the backups will run on a schedule (like daily or weekly) without you having to do anything manually.
